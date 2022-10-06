@@ -69,7 +69,7 @@ from cucmapi import axl, ris, ccs, log, cdr, pfm
 username = "username"
 password = "supersecret"
 cucm = "fqdn" #or IP address
-version = "11.5"
+cucm_version = "11.5"
 AXL = axl(username=username, password=password, cucm=cucm, cucm_version=cucm_version) # for SOAP AXL
 RIS = ris(username=username, password=password, cucm=cucm, cucm_version=cucm_version) # for RisPort70
 CCS = ccs(username=username, password=password, cucm=cucm, cucm_version=cucm_version) # for Control Center Services
